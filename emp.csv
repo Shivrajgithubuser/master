@@ -1,0 +1,5 @@
+empid,ename,deptid,salary,doj
+1,employee1,10,1000,01-Jan-2020
+2,employee2,20,2000,01-Dec-20
+3,employee3,30,300,01-----02
+4,employee4,40,&&65,09-Jan-2004

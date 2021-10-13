@@ -1,0 +1,9 @@
+{
+	"name": "newadflearning",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7932afef-076c-46a0-bb29-0074479b5c35",
+		"tenantId": "f7352b31-125d-44b8-9191-c56327d81c4a"
+	}
+}

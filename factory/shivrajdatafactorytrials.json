@@ -1,0 +1,9 @@
+{
+	"name": "shivrajdatafactorytrials",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a512b428-c7ee-4916-8be4-a3171ab222b1",
+		"tenantId": "f7352b31-125d-44b8-9191-c56327d81c4a"
+	}
+}

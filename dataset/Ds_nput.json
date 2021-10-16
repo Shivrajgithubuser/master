@@ -1,0 +1,32 @@
+{
+	"name": "Ds_nput",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_inputdata",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "output.csv",
+				"container": "inputcontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "output1",
+				"type": "String"
+			},
+			{
+				"name": "output2",
+				"type": "String"
+			}
+		]
+	}
+}

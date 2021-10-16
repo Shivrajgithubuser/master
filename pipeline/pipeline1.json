@@ -14,21 +14,13 @@
 					"secureInput": false
 				},
 				"userProperties": []
-			},
-			{
-				"name": "ForEach1",
-				"type": "ForEach",
-				"dependsOn": [
-					{
-						"activity": "Lookup1",
-						"dependencyConditions": [
-							"Succeeded"
-						]
-					}
-				],
-				"userProperties": []
 			}
 		],
+		"variables": {
+			"newvariable": {
+				"type": "String"
+			}
+		},
 		"annotations": []
 	}
 }

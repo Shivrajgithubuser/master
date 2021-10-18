@@ -25,10 +25,6 @@
 						"formatSettings": {
 							"type": "DelimitedTextReadSettings"
 						}
-					},
-					"dataset": {
-						"referenceName": "Ds_nput",
-						"type": "DatasetReference"
 					}
 				}
 			},
@@ -59,7 +55,7 @@
 							"typeProperties": {
 								"variableName": "newvariable",
 								"value": {
-									"value": "@item()",
+									"value": "@item().newvariable",
 									"type": "Expression"
 								}
 							}

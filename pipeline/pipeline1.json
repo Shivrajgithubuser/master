@@ -60,7 +60,7 @@
 							"typeProperties": {
 								"variableName": "newvariable",
 								"value": {
-									"value": "@item()",
+									"value": "@item().value",
 									"type": "Expression"
 								}
 							}

@@ -1,0 +1,9 @@
+{
+	"name": "azuredatafactorytrail987123",
+	"location": "southcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a3505510-cb6a-476e-a62c-d2ee489eb87b",
+		"tenantId": "f7352b31-125d-44b8-9191-c56327d81c4a"
+	}
+}
